@@ -1,0 +1,175 @@
+
+}import com.jcraft.jsch.*;
+
+public class SSHExample {
+    public static void main(String[] args) {
+        JSch jsch = new JSch();
+        Session session = null;
+        try {
+            // 创建会话
+            session = jsch.getSession("username", "hostname", port);
+            session.setConfig("StrictHostKeyChecking", "no");
+            session.setPassword("password");
+            
+            // 连接到服务器
+            session.connect();
+            
+            // 创建SFTP通道
+            ChannelSftp channel = (ChannelSftp) session.openChannel("sftp");
+            channel.connect();
+            
+            // 下载文件
+            channel.get("remoteFilePath", "localFilePath");
+            
+            // 关闭连接
+            channel.disconnect();
+        } catch (JSchException | SftpException e) {
+            e.printStackTrace();
+        } finally {
+            if (session != null) {
+                session.disconnect();
+            }
+        }
+    }
+}
+
+import com.jcraft.jsch.*;
+
+public class SFTPClient {
+    private Session session;
+    private ChannelSftp channelSftp;
+
+    public void connect(String username, String host, String password) throws JSchException {
+        JSch jSch = new JSch();
+        // 创建SSH会话
+        session = jSch.getSession(username, host, 22);
+        session.setPassword(password);
+        session.setConfig("StrictHostKeyChecking", "no");
+        session.connect(); // 连接到服务器
+        // 打开SFTP通道
+        channelSftp = (ChannelSftp) session.openChannel("sftp");
+        channelSftp.connect(); // 连接SFTP
+    }
+
+    // 关闭连接
+    public void disconnect() {
+        if (channelSftp != null) {
+            channelSftp.disconnect();
+        }
+        if (session != null) {
+            session.disconnect();
+        }
+    }
+}
+
+
+import java.util.Vector;
+
+public class FileLister {
+    private ChannelSftp channelSftp;
+
+    public FileLister(ChannelSftp channelSftp) {
+        this.channelSftp = channelSftp;
+    }
+
+    public void listFiles(String directory) throws SftpException {
+        // 获取指定目录下的文件列表
+        Vector<ChannelSftp.LsEntry> files = channelSftp.ls(directory);
+        
+        // 遍历文件列表并打印
+        for (ChannelSftp.LsEntry entry : files) {
+            System.out.println("文件名: " + entry.getFilename());
+        }
+    }
+}
+
+
+
+ // 获取并打印所有注解
+           System.out.println("onStart");
+        for(ITestNGMethod m1 : context.getAllTestMethods()) {
+            if(m1.getConstructorOrMethod().getMethod().isAnnotationPresent(MyAnnotation.class)) {
+                name = m1.getConstructorOrMethod().getMethod().getAnnotation(MyAnnotation.class).name();
+                id = m1.getConstructorOrMethod().getMethod().getAnnotation(MyAnnotation.class).id();
+ 
+            }
+        }
+
+
+SELECT * FROM oceanbase.GV$OB_QUERY_RESPONSE_TIME_HISTOGRAM limit 2\G
+
+
+          private final Map<String, PaymentStrategy> strategyMap;
+
+    @Autowired
+    public StrategyFactory(Map<String, PaymentStrategy> strategyMap) {
+        this.strategyMap = strategyMap;
+    }
+
+    public PaymentStrategy getStrategy(String type) {
+        PaymentStrategy strategy = strategyMap.get(type);
+        if (strategy == null) {
+            throw new IllegalArgumentException("❌ 不支持的支付方式：" + type);
+        }
+        return strategy;
+    }
+
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+ 
+public class JDBCDemo {
+    public static void main(String[] args) {
+        // 1. 加载驱动
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            return;
+        }
+ 
+        // 2. 建立连接
+        String url = "jdbc:mysql://localhost:3306/databaseName";
+        String user = "username";
+        String password = "password";
+        try (Connection connection = DriverManager.getConnection(url, user, password)) {
+            // 3. 创建Statement对象
+            try (Statement statement = connection.createStatement()) {
+                // 4. 执行查询
+                String sql = "SELECT * FROM tableName";
+                ResultSet resultSet = statement.executeQuery(sql);
+                // 5. 处理结果集
+                while (resultSet.next()) {
+                    // 根据实际字段获取数据
+                    String name = resultSet.getString("name");
+                    int age = resultSet.getInt("age");
+                    System.out.println("Name: " + name + ", Age: " + age);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+HikariConfig hikariConfig = new HikariConfig();
+        hikariConfig.setPoolName("HikariCP 连接池");
+        hikariConfig.setDataSourceClassName("oracle.jdbc.pool.OracleDataSource");
+        hikariConfig.addDataSourceProperty("user", "zzt");
+        hikariConfig.addDataSourceProperty("password", "zzt");
+        hikariConfig.addDataSourceProperty("url", "jdbc:oracle:thin:@1.1.1.9:1521/prodpdb1");
+        hikariConfig.setMaximumPoolSize(1); // 设置数据库层的session数
+        hikariConfig.setAutoCommit(false); // 默认自动提交为开启状态
+        // 实际使用中一般是在应用启动时初始化数据源（即配置数据库连接），应用从数据源中获取连接（即从应用池中获取连接，而非直接从数据库获取连接）。
+        HikariDataSource hikariDataSource = new HikariDataSource(hikariConfig);
+        Connection connection = null;
+        try {
+            connection = hikariDataSource.getConnection();
+            Statement st = connection.createStatement();
+            ResultSet rs = st.executeQuery("select count(*) cn from zzt.emp");
+            while (rs.next()) {
+                System.out.println("【count is:】" + rs.getString("cn"));
