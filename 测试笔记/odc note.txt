@@ -1,0 +1,496 @@
+https://github.com/login 
+zhijiamu  git@123_MHY
+
+
+https://cr.console.aliyun.com/cn-shanghai/instance/repositories
+muhaiyan@1987405845969854.onaliyun.com
+钉钉登录
+
+String serverAddr = "localhost:8848"
+aca0c939b79883cac3c74bc553c3e882621e81f544ca6d1a2748a4b51f7bf6da
+
+ArrayNode 
+
+
+ backend ............................................ SUCCESS [  2.568 s]
+[INFO] framework .......................................... SUCCESS [  0.218 s]
+[INFO] plugin ............................................. SUCCESS [  0.206 s]
+[INFO] plugin-sdk ......................................... SUCCESS [  1.619 s]
+[INFO] metersphere-provider ............................... SUCCESS [  0.707 s]
+[INFO] services ........................................... SUCCESS [  0.184 s]
+[INFO] system-setting ..................................... SUCCESS [03:52 min]
+[INFO] project-management ................................. SUCCESS [04:42 min]
+[INFO] api-test ........................................... SUCCESS [13:01 min]
+[INFO] bug-management ..................................... SUCCESS [05:07 min]
+[INFO] case-management .................................... SUCCESS [03:41 min]
+[INFO] test-plan .......................................... SUCCESS [09:41 min]
+[INFO] app ................................................ SUCCESS [ 30.865 s]
+
+
+
+ failed to populate volume: error while mounting volume '/var/lib/docker/volumes/metersphere_ms-redis-data/_data': failed to mount local volume: mount /opt/metersphere/data/redis:/var/lib/docker/volumes/metersphere_ms-redis-data/_data, flags: 0x1000: no such file or directory
+
+
+ minioadmin
+ minioadmin
+
+
+
+sudo docker run --restart always --name jenkins -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -d  public.ecr.aws/bitnami/jenkins:2.346.3
+docker run -d --restart always --name my-container my-image
+
+jenkins jen@12345 
+
+
+
+
+ ### Error querying database. Cause: java.sql.SQLSyntaxErrorException: Expression #17 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'temp.role_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by ### The error may exist in io/metersphere/system/mapper/ExtOrganizationMapper.xml ### The error may involve defaultParameterMap ### The error occurred while setting parameters ### SQL:
+
+  SELECT count(0) FROM (SELECT temp.*, min(temp.memberTime) AS groupTime FROM (SELECT u.*, urr.role_id, urr.create_time AS memberTime FROM user_role_relation urr JOIN `user` u ON urr.user_id = u.id AND u.deleted = false WHERE urr.source_id = ?) temp GROUP BY temp.id) table_count
+
+
+   ### Cause: java.sql.SQLSyntaxErrorException: Expression #17 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'temp.role_id' which is not functionally dependent on columns in GROUP BY clause; 
+
+
+  this is incompatible with sql_mode=only_full_group_by ; 
+
+
+  bad SQL grammar []
+
+
+  ${#arraylist[@]}
+  ${str:1:4}
+  expr index "str" r
+
+
+  declare -A site=([]= []= []=)
+
+表达式和运算符之间要有空格
+
+文件可读 [ -r $file ]
+文件可写[ -w $file ]
+文件可执行[ -x $file ]
+文件为普通文件[ -f $file ]
+文件不是个目录[ -d $file ]
+文件不为空[ -s $file]
+文件存在[ -e $file]
+
+字符串
+[ -z "str"]
+[ -n "str"]
+[ $str ]
+
+\n 换行 \c 不换行
+
+
+
+bonree 10.166.204.216:58899
+主账号：haier
+密码：Haier@365!
+
+
+
+obclient -h127.0.0.1 -P2883 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+obclient -h127.0.0.1 -P2883 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+obclient -h127.0.0.1 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+obclient -h172.17.243.29 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+
+
+172.23.48.1
+obclient -h172.23.48.1 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+
+obclient -h172.23.48.1 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+172.23.48.1 
+172.17.243.29
+http://127.0.1.1:3000/d/oceanbase | admin | wyqgMFFOEp | active
+
+
+172.22.127.116
+
+
+obclient -h172.22.127.116 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+
+odb cluster start demo
+
+SELECT * FROM OB_TENANT_INFO;
+
+
+--ODC_DATABASE_HOST=172.22.127.116
+--ODC_DATABASE_PORT=2881
+--ODC_DATABASE_NAME=oceanbase
+--ODC_DATABASE_USERNAME=root
+--ODC_DATABASE_PASSWORD=pxlHY3KuCCFIBhxpF4sC
+--server.port=8989
+
+
+export ODC_DATABASE_HOST=172.22.127.116
+export ODC_DATABASE_PORT=2881
+export ODC_DATABASE_NAME=oceanbase
+export ODC_DATABASE_USERNAME=root
+export ODC_DATABASE_PASSWORD=pxlHY3KuCCFIBhxpF4sC
+export ODC_PROFILE_MODE=alipay
+export ODC_SERVER_PORT=8989
+
+export DATABASE_HOST=172.22.127.116
+export DATABASE_PORT=2881
+export DATABASE_NAME=oceanbase
+export DATABASE_USERNAME=root
+export DATABASE_PASSWORD=pxlHY3KuCCFIBhxpF4sC
+export PROFILE_MODE=alipay
+export SERVER_PORT=8989
+
+
+#!/usr/bin/env bash
+docker run -v /var/log/odc:/opt/odc/log -v /var/data/odc:/opt/odc/data \
+-d -i --net host --cpu-period 100000 --cpu-quota 400000 --memory 8G --name "obodc1209-1" \
+-e "DATABASE_HOST=172.17.243.29" \
+-e "DATABASE_PORT=2881" \
+-e "DATABASE_USERNAME=root@sys" \
+-e "DATABASE_PASSWORD=pxlHY3KuCCFIBhxpF4sC" \
+-e "DATABASE_NAME=oceanbase" \
+-e "ODC_PROFILE_MODE=alipay" \
+-e "ODC_ADMIN_INITIAL_PASSWORD=admin" \
+oceanbase/odc:mhy4.3.2-20241209
+
+GUSUcyh@n34@GUSUcyh@n34@
+
+docker run -v /var/log/odc:/opt/odc/log -v /var/data/odc:/opt/odc/data \
+-d -i --net host --cpu-period 100000 --cpu-quota 400000 --memory 8G --name "obodc1209-3" \
+-e "DATABASE_HOST=127.0.0.1" \
+-e "DATABASE_PORT=2881" \
+-e "DATABASE_USERNAME=root@sys" \
+-e "DATABASE_PASSWORD=pxlHY3KuCCFIBhxpF4sC" \
+-e "DATABASE_NAME=oceanbase" \
+-e "ODC_PROFILE_MODE=alipay" \
+-e "ODC_ADMIN_INITIAL_PASSWORD=admin" \
+oceanbase/odc:mhy4.3.2-20241209
+
+docker 
+
+obclient -h172.17.243.29 -P2883 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+obclient -h172.17.243.29 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+obclient -h127.0.0.1 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+
+/opt/odc/obclient/bin/obclient  -h172.17.243.29 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+
+DATABASE_HOST
+export ODC_REMOTE_DEBUG_PORT=8000
+script/start-odc.sh
+
+build
+1. script/build_libs
+安装lib包db-browser ob-sql-parser
+
+2 #init node env for first build
+script/init_node_env.sh
+2.1 #update submodule
+script/update_submodule.sh
+2.2#build frontend if needed
+script/build_sqlconsole.sh
+
+3.#build backend jar
+script/build_jar.sh
+
+run
+#set environment variables
+export ODC_DATABASE_HOST="???"
+export ODC_DATABASE_PORT==????
+export ODC_DATABASE_NAME="???"
+export ODC_DATABASE_USERNAME="???"
+export ODC_DATABASE_PASSWORD="???"
+export ODC_PROFILE_MODE="alipay"
+export ODC_SERVER_PORT=8989
+#nohup start
+script/nohup-start-odc.sh
+
+Stop
+script/kill-odc.sh
+
+obd cluster start demo
+obd cluster stop demo -c obagent
+obclient -h127.0.0.1 -P2883 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+obclient -h172.17.243.29 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+mysql -h172.17.243.29 -P2881 -uroot -p'pxlHY3KuCCFIBhxpF4sC' -Doceanbase -A
+
+${ocp.agent.manager.http.port}
+
+|                           obagent                            |
++-----------+--------------------+--------------------+--------+
+| ip        | mgragent_http_port | monagent_http_port | status |
++-----------+--------------------+--------------------+--------+
+| 127.0.1.1 | 8089               | 8088               | active |
+
+
+
+
+# Network host settings that enable the DNS server used by WSL 2. 
+This example changes the hostname, 
+sets generateHosts to false, preventing WSL from the default behavior of auto-generating /etc/hosts,
+ and sets generateResolvConf to false, preventing WSL from auto-generating /etc/resolv.conf, so that you can create your own (ie. nameserver 1.1.1.1).
+
+ifconfig eth0 192.168.38.202 netmask 255.255.255.0
+192.168.38.1
+route add default gw  192.168.38.1
+
+
+
+10.164.204.185
+
+
+
+
+# Let NetworkManager manage all devices on this system
+network:
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    eth0:
+      addresses:
+        - 192.168.38.222/24
+      gateway4: 192.168.38.1
+      nameservers:
+        addresses: [114.114.114.114]
+
+# Let NetworkManager manage all devices on this system
+network:
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    eth0:
+      addresses:
+        - 192.168.38.222/24
+      gateway4: 192.168.38.1
+      nameservers:
+        addresses: [114.114.114.114]
+
+
+https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBZw77Y2hzNMN3v3V1DK0g6l?rnd=0.37176131814953184
+
+
+
+baseurl=https://mirrors.openanolis.cn/anolis/8.4/BaseOS/x86_64/os/
+https://mirrors.openanolis.cn/anolis/8.6/BaseOS/x86_64/os/
+
+
+数据库变更工单： 【工单描述】工单要做的事情【变更涉及行数】100w 【是否涉及 OGG】是/否 【执行时间】2024-11-21 00:00:00 【变更是否影响借呗主链路】是/否【是否经过测试】是/否。
+
+导出工单： 【导出内容】导出张三影像资料【导出目的】用于法院起诉【OA编号】20241203sdfssdf或者【ONES编号】#ones20241203222
+
+归档工单： 【描述】每日归档30天前数据【源库】电销平台【目标库】电销平台OB归档库【涉及表】t_order、t_customer【任务频率】每日10:00/仅一次
+
+其它任务： 【描述】清理源库数据【源库】电销平台【涉及表】t_order、t_customer【任务频率】每日10:00/仅一次
+
+
+sudo docker run -p 2881:2881 --name obstandalone -e MODE=NORMAL -e OB_TENANT_PASSWORD=root -d oceanbase/oceanbase-ce
+
+
+root@test
+
+
+
+{\n" +
+                    "    \"msgtype\": \"text\",\n" +
+                    "    \"text\": {\n" +
+                    "        \"content\": \"这是一条来自 Java 的测试消息\"\n" +
+                    "    },\n" +
+                    "    \"at\": {\n" +
+                    "        \"atMobiles\": [\n" +
+                    "            \"15655642287\"\n" +
+                    "        ],\n" +
+                    "        \"isAtAll\": false\n" +
+                    "    }\n" +
+                    "}
+
+
+
+{
+     "msgtype": "markdown",
+     "markdown": {
+         "title":"杭州天气",
+         "text": "#### 杭州天气 @150XXXXXXXX \n > 9度，西北风1级，空气良89，相对温度73%\n > ![screenshot](https://img.alicdn.com/tfs/TB1NwmBEL9TBuNjy1zbXXXpepXa-2400-1218.png)\n > ###### 10点20分发布 [天气](https://www.dingtalk.com) \n"
+     },
+      "at": {
+          "atMobiles": [
+              "150XXXXXXXX"
+          ],
+          "atUserIds": [
+              "user123"
+          ],
+          "isAtAll": false
+      }
+ }
+
+
+ {
+     "msgtype": "markdown",
+     "markdown": {
+         "title":"杭州天气",
+         "text": "#### 营销组各位 @15655642287 @15655642287
+> p1
+>> - 应用1：ip：8000 
+>> - 应用1：ip：8000 
+>> - 应用1：ip：8000
+> ###### 10点20分发布"
+     },
+      "at": {
+          "atMobiles": [
+              "150XXXXXXXX"
+          ],
+          "atUserIds": [
+              "user123"
+          ],
+          "isAtAll": false
+      }
+ }
+
+
+<font color=\"#00FF00\">
+
+ {
+     "msgtype": "markdown",
+     "markdown": {
+         "title":"杭州天气",
+         "text": "####营销组-不健康应用\n>DEFAULT测试环境\n>>- oanplatform-jiebei.app，10.166.204.202:3005\n>>- 0anplatform
+    -jiebei-3.app, 10.166.204.203:3005\n>> - oanplatform-jiebei-1.app, 10.166.204.202:3006\n>> - anplatform-jiebei
+    -2.app,10.166.204.202:3005\n\n>P1测试环境\n>>- oanplatform-jiebei.app，10.166.204.202:3005\n>>- 0anplatform
+    -jiebei-3.app, 10.166.204.203:3005\n>> - oanplatform-jiebei-1.app, 10.166.204.202:3006\n>> - anplatform-jiebei
+    -2.app,10.166.204.202:3005\n\n "
+     },
+      "at": {
+          "atMobiles": [
+              "15655642287","13512165501"
+          ],
+          "atUserIds": [
+              "user123"
+          ],
+          "isAtAll": false
+      }
+ }
+
+
+cas,caas,pgw,check,plr,acp,hcap
+https://oapi.dingtalk.com/robot/send?access_token=8e17590aaa95c4d24ff5fd23536b23e096c1dfcbf1566b309307e6364ebb7192
+
+
+
+#### 营销组
+> p1
+>> - 应用1：ip：8000 
+>> - 应用1：ip：8000 
+>> - 应用1：ip：8000
+
+
+
+    "msgtype":"markdown",
+    "markdown":{
+    "text"："
+    'at":
+    "atMobiles":[
+    "167"
+    "isAtAll":false
+
+// vite.config.js 或 vite.config.ts
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+ 
+
+// vite.config.js 或 vite.config.ts
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+ 
+export default defineConfig({
+  plugins: [vue()],
+
+
+
+
+  server: {
+    proxy: {
+      '/api': { 
+        target: 'https://localhost:8080',
+        changeOrigin: true
+         }
+        }
+        }
+
+
+        (rewrite: (path) => path.replace(/^\/api/, '')) 
+         
+
+
+     <!-- <h2>Grouped Tabs</h2>
+ <li v-for="item in reversedMessage(str)" :key="item.clustername">
+   <li  v-for="subitem in item" :key="subitem.clustername" >{{ subitem.ip }} {{ subitem.name }} </li>
+ </li> -->
+
+
+
+export CLASSPATH=$CLASSPATH:/usr/lib/jvm/java-1.8.0-openjdk/lib/tools.jar
+
+
+
+curl -N -s "http://localhost:39461/sandbox/default/${1}"   module/http/ sandbox-module-mgr/list  sandbox-module-mgr/list
+
+
+curl -N -s "http://localhost:39461/sandbox/default/module/http/sandbox-module-mgr/list"
+
+
+lsof -p "628" |
+        grep "/bin/java" |
+        awk '{print $9}' |
+        xargs ls -l |
+        awk '{if($1~/^l/){print $11}else{print $9}}' |
+        xargs ls -l |
+        awk '{if($1~/^l/){print $11}else{print $9}}' |
+        sed 's/\/bin\/java//g'
+
+
+/home/user/workspace/super-jacoco/jacoco/org.jacoco.agent-0.8.5-runtime.jar
+
+        nohup java -javaagent:/usr/local/org.jacoco.agent-0.8.5-runtime.jar=includes=*,output=tcpserver,port=18513,address=*,append=true -jar mock-server.jar > /dev/null 2>&1 &
+
+
+
+          nohup java -javaagent:/home/user/workspace/super-jacoco/jacoco/org.jacoco.agent-0.8.5-runtime.jar=includes=*,output=tcpserver,port=18513,address=*,append=true -jar demo-1.0-SNAPSHOT.jar > /dev/null 2>&1 &
+
+
+
+          2025-04-17 10:43:50,566 INFO (CmdExecutor.java:48)- executeCmd : 
+
+          bash -c cd /home/user/app/super_jacoco/clonecode/45555/master&&mvn clean -Dmaven.test.skip=false org.jacoco:jacoco-maven-plugin:1.0.2-SNAPSHOT:prepare-agent compile test-compile org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test org.apache.maven.plugins:maven-jar-plugin:2.4:jar org.jacoco:jacoco-maven-plugin:1.0.2-SNAPSHOT:report -Dmaven.test.failure.ignore=true -Dfile.encoding=UTF-8 >/home/user/report/logs/45555.log
+
+
+
+          mvn clean -Dmaven.test.skip=false org.jacoco:jacoco-maven-plugin:0.8.5:prepare-agent compile test-compile org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test org.apache.maven.plugins:maven-jar-plugin:2.4:jar org.jacoco:jacoco-maven-plugin:0.8.5:report -Dmaven.test.failure.ignore=true -Dfile.encoding=UTF-8
+
+
+jacoco/org.jacoco.agent-0.8.5-runtime.jar
+
+mvn install:install-file -Dfile=/home/user/workspace/super-jacoco/jacoco/maven-plugin/1.0.2/jacoco/jacoco-maven-plugin/1.0.2-SNAPSHOT/jacoco-maven-plugin-1.0.2-SNAPSHOT.jar  -DgroupId=org.jacoco -DartifactId=jacoco-maven-plugin -Dversion=1.0.2-SNAPSHOT -Dpackaging=jar
+
+jacoco/org.jacoco.cli-1.0.2-SNAPSHOT-nodeps.jar
+
+mvn install:install-file -Dfile=/home/user/workspace/super-jacoco/jacoco/org.jacoco.agent-0.8.5-runtime.jar  -DgroupId=org.jacoco -DartifactId=jacoco-maven-plugin -Dversion=1.0.2-SNAPSHOT -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=/home/user/workspace/super-jacoco/jacoco/maven-plugin/1.0.2/jacoco/org.jacoco.core/1.0.2-SNAPSHOT/org.jacoco.core-1.0.2-SNAPSHOT.jar  -DgroupId=org.jacoco -DartifactId=org.jacoco.core -Dversion=1.0.2-SNAPSHOT -Dpackaging=jar
+
+
+jacoco/maven-plugin/1.0.2/jacoco/org.jacoco.core/1.0.2-SNAPSHOT/org.jacoco.core-1.0.2-SNAPSHOT.jar
+
+
+
+
+{"uuid":"uuid","type":1,"gitUrl":"git@git","subModule":"","baseVersion":"master","nowVersion":"feature"，"address":"127.0.0.1","port":"8088"}返回：{"code":200,"data":true,"msg":"msg"}
+
+
+
+2025-04-17 16:00:40,810 INFO (CmdExecutor.java:48)- executeCmd : bash -c cd /home/user/app/super_jacoco/clonecode/env12345678/master&&mvn clean compile >>/home/user/report/logs/env12345678.log
+
+
+java -jar jacococli.jar report [<execfiles> ...] --classfiles <path> [--csv <file>] [--encoding <charset>] [--help] [--html <dir>] [--name <name>] [--quiet] [--sourcefiles <path>] [--tabwith <n>] [--xml <file>]
+
+
+
+ matrix = [[1, 2, 3, 4], [5, 6, 7, 8],[9, 10, 11, 12]]

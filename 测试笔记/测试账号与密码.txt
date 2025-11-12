@@ -1,0 +1,133 @@
+邮箱：haiertest_001@163.com   Haiertest001 
+微信 Haiertest haiertest001（公众号，小程序）
+appleid 账号    haiertest_001@163.com  密码： Haier@123
+
+6217852417031234245 中国银行
+https://standardpay-stg.haiercash.com/?processId=P16545031228819223&channelNo=08&firstSpell=HDCS1
+听云测试环境10.166.204.91:8080 用户名密码：Haier/Haier@2o23!
+听云生产环境生产环境平台登录地址：http://saserver-manage.haiercash.net账号：姓名拼音 密码：Haier@2o23!
+
+
+测试B的公众号：消金
+封测的公众号：够多智精选
+小程序：
+
+h5的域名：封测https://standardpay-stg.haiercash.com,https://standardpay-stg.haiercash.com/?processId=P16545031228819223&channelNo=08&firstSpell=HDCS1
+                  测试B: https://standardpay-p2.haiercash.com/login?redirect=%2FquotaResult%3FprocessId%3DP16539620345667290%26channelNo%3D42%26strategyId%3D1704460734494310403%26planId%3D1704460734431395841&firstLoad=true
+
+
+埋点账号，A+
+https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Fsignin.aliyun.com%2Foauth2%2Fv1%2Fauth%3Fauthorization_request%3Df113de61-1603-4f81-9b20-4eb1af506a2d#/main
+yanghuizhao_@haiercash.onaliyun.com   Qwer@1234
+
+
+appleid 账号    haiertest_001@163.com  密码： Haier@123
+
+测试工具
+http://app-tools.haiercash.net/HaierTest/
+chenrumeng  Aa123456
+
+
+信贷核心的数据库：
+阿波罗都有
+
+
+穆海燕  340826199102280848  支付密码：159357 或者000000
+6222620680001524464 交通银行
+6217852417031234245 中国银行
+6217852417031234585 交通银行
+李军  17621396195、 34290119920112201X
+
+
+电销平台
+admin  admin123
+系统中文名：电销工作台
+后端：market-telemarket-server
+前端：electricSalesWorkbench-web
+10.164.220.9是测试B，
+10.164.204.68是封测
+
+
+
+OCS
+http://47.104.78.70:20080/ocs-portal/login
+admin
+Admin@123
+
+
+
+邮箱：haiertest_001@163.com   Haiertest001 
+微信 Haiertest haiertest001（公众号，小程序）
+appleid 账号    haiertest_001@163.com  密码： Haier@123
+
+
+测试B的公众号：消金
+封测的公众号：够多智精选
+小程序：
+
+h5的域名：封测https://standardpay-stg.haiercash.com,https://standardpay-stg.haiercash.com/?processId=P16545031228819223&channelNo=08&firstSpell=HDCS1
+                  测试B: https://standardpay-p2.haiercash.com/login?redirect=%2FquotaResult%3FprocessId%3DP16539620345667290%26channelNo%3D42%26strategyId%3D1704460734494310403%26planId%3D1704460734431395841&firstLoad=true
+
+
+埋点账号，A+
+https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Fsignin.aliyun.com%2Foauth2%2Fv1%2Fauth%3Fauthorization_request%3Df113de61-1603-4f81-9b20-4eb1af506a2d#/main
+yanghuizhao_@haiercash.onaliyun.com   Qwer@1234
+
+
+appleid 账号    haiertest_001@163.com  密码： Haier@123
+
+测试工具
+http://app-tools.haiercash.net/HaierTest/
+chenrumeng  Aa123456
+
+签章oss
+https://signin.aliyun.com/login.htm?#/main
+用户登录名称 muhaiyan@1987405845969854.onaliyun.com
+登录密码 )QcQTExech{QB1(q98UBCqj&0tvMVcOd  重置为Qwer@1234
+
+
+信贷核心的数据库：
+阿波罗都有
+
+
+穆海燕  340826199102280848  支付密码：159357 或者000000
+6222620680001524464 交通银行
+6217852417031234245 中国银行
+6217852417031234585 交通银行
+李军  17621396195、 34290119920112201X
+
+
+电销平台
+admin  admin123
+系统中文名：电销工作台
+后端：market-telemarket-server
+前端：electricSalesWorkbench-web
+10.164.220.9是测试B，
+10.164.204.68是封测
+
+
+
+OCS
+http://47.104.78.70:20080/ocs-portal/login
+admin
+Admin@123
+
+
+听云：
+生产环境平台登录地址：http://saserver-manage.haiercash.net账号：姓名拼音 密码：Haier@2o23!
+
+听云测试环境
+10.166.204.91:8080
+用户名密码：Haier/Haier@2o23!
+听云生产环境
+生产环境平台登录地址：http://saserver-manage.haiercash.net账号：姓名拼音 密码：Haier@2o23!
+
+
+https://tingyun-manager-stg.haiercash.com/platform/passport/login，账号密码是一样的
+Haier/Haier@2o23!
+10.166.204.91:8080
+
+
+
+
+
